@@ -10,9 +10,6 @@ new fullpage('#fullpage', {
 
 
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').trigger('focus')
-})
-
-
-  
+$('#work1').on('shown.bs.modal', function () {
+                $('#myInput').trigger('focus')
+            })
