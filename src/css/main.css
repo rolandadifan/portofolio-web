@@ -1,0 +1,119 @@
+html {
+  scroll-behavior: smooth;
+}
+/* about */
+@media only screen and (min-width: 600px) {
+  .navbar {
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+}
+
+.text-nav {
+  font-family: "Black Ops One", cursive;
+  color: white !important;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.text-nav:hover {
+  color: gray !important;
+}
+
+.title-intro {
+  color: #e5e5e5 !important;
+  font-size: 48px;
+}
+
+.about-intro {
+  color: #c4c4c4 !important;
+  font-size: 36px;
+}
+
+.btn-about {
+  border-radius: 20px;
+}
+
+.btn-about:hover {
+  background-color: gray !important;
+  color: black !important;
+}
+
+/* endabout */
+
+/* skill */
+
+.skill-title {
+  font-weight: bold;
+  text-shadow: gray;
+  color: #c4c4c4;
+}
+
+.skill-title {
+  margin-bottom: 40px;
+}
+.skills-bar {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.skill-name {
+  color: #e5e5e5;
+  font-family: "Black Ops One", cursive;
+  font-size: 50px;
+}
+
+.html {
+  width: 90%;
+  background-color: #4caf50;
+}
+.css {
+  width: 80%;
+  background-color: #2196f3;
+}
+.js {
+  width: 65%;
+  background-color: #f44336;
+}
+.php {
+  width: 60%;
+  background-color: #808080;
+}
+
+/* end skill */
+.btn-work {
+  margin-top: 10px;
+  border-radius: 20px;
+  background-color: gray !important;
+}
+
+.btn-work:hover {
+  background-color: grey !important;
+  color: black !important;
+}
+
+/* contact */
+#contact a {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  #contact a {
+    font-size: 15px;
+  }
+}
+
+#contact a:hover {
+  color: gray !important;
+}
+
+footer {
+  margin-top: 100px;
+  bottom: 0;
+  font-size: 25px;
+}
